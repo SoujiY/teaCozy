@@ -1,0 +1,140 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    display:flex;          
+  }
+  
+  .header {
+    position: fixed;
+    width: 100%;
+    max-height: 69px;
+    border-bottom: 1px solid seashell;
+    font-size: 22px;
+    
+  }
+
+  .logo {
+      height: 50px;
+      margin-left: 10px;
+  }
+
+  ul {
+    width: 100%;
+    justify-content: right;
+    
+}
+
+li {
+    padding: 0px 10px;
+    text-decoration: underline;
+}
+
+main {
+    display: block;
+}
+
+
+.container1 {
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 60px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1g9znrn*_ga*MTk5NTY0NDY3My4xNjUyNjI1ODI5*_ga_3LRZM6TM9L*MTY1NDMyNDU1MC41My4xLjE2NTQzMjUyMzkuMjQ.');
+    
+}  
+
+.headingText {
+    flex-direction: column;
+    width: 100%; 
+}
+
+h2, h4, h5 {
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.container2 {
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 40px 150px;
+    
+}
+
+.cards {
+    display: grid;
+    max-width: 1000px;
+    grid-template-rows: repeat(2,200px);
+    grid-template-columns: repeat(3 , 300px);
+    grid-gap: 50px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    display: grid;
+     
+    
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+    
+span {
+    text-align: justify;
+    }
+
+.container3 {
+    width: 1200px;
+    height: 500px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 60px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1j9po9y*_ga*MTk5NTY0NDY3My4xNjUyNjI1ODI5*_ga_3LRZM6TM9L*MTY1NDM0NTMwNS41NS4xLjE2NTQzNDY5MTkuNTU.');
+}
+
+.container3 h2 {
+    background-color: initial;
+    margin: 25px 0px;
+    padding-top: 50px;
+}
+
+ .locations {
+    background-color: initial;
+    margin: 15px 40px;
+    padding-bottom: 40px;
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+    margin: 0px 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+
+.container4 {
+    width: 100%;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+footer {
+    position:fixed; 
+    bottom: 0px;
+    width: 100%;
+    padding-left: 20px;
+}    
